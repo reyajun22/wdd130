@@ -1,7 +1,7 @@
 @import url(https://fonts.google.com/specimen/Shippori+Mincho?query=shipp);
 
 html {
-    font-size: 10px; 
+    font-size: 20px; 
     font-family: 'Shippori Mincho', regular-400;
   }
 
@@ -28,8 +28,24 @@ html {
     padding: 20px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
+    font-family: 'Shippori Mincho';
+  color: #FFFFFF;
+  text-align: center;
+  }
+
+  div {
+    font-family: 'Mallana';
+    color: #DEECE5;
+    text-align: center;
+  }
+  
+  h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
+  }
+
+  img {
+    align-items: center;
   }
 
   header {
@@ -43,7 +59,7 @@ html {
 
   nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     display: flex;
   }
 
