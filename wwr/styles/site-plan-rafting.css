@@ -85,8 +85,18 @@ html {
     color: var(--nav-hover-link-color);
   }
 
-  nav a:hover, nav a:visited {
+ nav a:link {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+
+  nav a:visited{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+  
+  nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  } 
 
