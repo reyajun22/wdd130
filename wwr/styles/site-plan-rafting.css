@@ -16,9 +16,9 @@ html {
     --heading-font: 'Shippori Mincho', regular-400;
     --paragraph-font: 'Mallana';
 
-    --nav-background-color: #FFFFFF;
+    --nav-background-color: #DEECE5;
     --nav-link-color: #819A96;
-    --nav-hover-link-color: #DEECE5;
+    --nav-hover-link-color: #ffffff;
     --nav-hover-background-color: #004148;
   }
 
