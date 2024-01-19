@@ -40,7 +40,23 @@ html {
     text-align: center;
   }
   
-  h2, h3, h4, h5, h6 {
+  h2 {
+    font-family: var(--heading-font);
+  }
+
+  h3 {
+    font-family: var(--heading-font);
+  }
+
+  h4 {
+    font-family: var(--heading-font);
+  }
+
+  h5 {
+    font-family: var(--heading-font);
+  }
+
+  h6 {
     font-family: var(--heading-font);
   }
 
