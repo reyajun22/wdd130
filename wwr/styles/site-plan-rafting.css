@@ -44,10 +44,6 @@ html {
     font-family: var(--heading-font);
   }
 
-  img {
-    align-items: center;
-  }
-
   header {
     padding: 20px;
     background-color: var(--accent1-color);
