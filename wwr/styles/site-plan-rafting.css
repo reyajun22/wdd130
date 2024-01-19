@@ -1,3 +1,7 @@
+@import url(https://fonts.google.com/specimen/Shippori+Mincho?query=shipp);
+
+@import url(https://coolors.co/819a96-deece5-ffffff-565656-004148);
+
 html {
     font-size: 20px; 
     font-family: 'Shippori Mincho', regular-400;
@@ -10,7 +14,7 @@ html {
     --accent2-color: #004148;
 
     --heading-font: 'Shippori Mincho', regular-400;
-    --paragraph-font: 'Arial';
+    --paragraph-font: 'Mallana';
 
     --nav-background-color: #FFFFFF;
     --nav-link-color: #819A96;
