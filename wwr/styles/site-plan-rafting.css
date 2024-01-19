@@ -44,6 +44,12 @@ html {
     font-family: var(--heading-font);
   }
 
+  img {
+    width: auto;
+    height:100px;
+    padding: 2px;
+  }
+
   header {
     padding: 20px;
     background-color: var(--accent1-color);
