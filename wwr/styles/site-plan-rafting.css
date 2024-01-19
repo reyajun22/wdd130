@@ -1,0 +1,58 @@
+@import url(https://fonts.google.com/specimen/Shippori+Mincho?query=shipp);
+
+html {
+    font-size: 10px; 
+    font-family: 'Shippori Mincho', regular-400;
+  }
+
+  @import url(https://coolors.co/819a96-deece5-ffffff-565656-004148);
+  
+  :root {
+    --primary-color: #565656;
+    --secondary-color: #819A96;
+    --accent1-color: #819A96;
+    --accent2-color: #004148;
+
+    --heading-font: 'Shippori Mincho', regular-400;
+    --paragraph-font: 'Mallana';
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #819A96;
+    --nav-hover-link-color: #DEECE5;
+    --nav-hover-background-color: #004148;
+  }
+
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+
+  nav a{
+    display: block;
+    color: var(--nav-hover-link-color);
+  }
+
+  nav a:hover, nav a:visited {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
