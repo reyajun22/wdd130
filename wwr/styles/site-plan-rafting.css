@@ -73,7 +73,7 @@ html {
     color: var(--nav-hover-link-color);
   }
 
-  nav, nav a, nav a:link, nav a:hover, nav a:visited {
+nav a:link, nav a:hover, nav a:visited {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
