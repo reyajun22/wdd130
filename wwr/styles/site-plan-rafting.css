@@ -1,6 +1,6 @@
-@import url(https://fonts.google.com/specimen/Shippori+Mincho?query=shipp);
+@import url('https://fonts.google.com/specimen/Shippori+Mincho?query=shipp');
 
-@import url(https://coolors.co/819a96-deece5-ffffff-565656-004148);
+@import url('https://coolors.co/819a96-deece5-ffffff-565656-004148');
 
 html {
     font-size: 20px; 
