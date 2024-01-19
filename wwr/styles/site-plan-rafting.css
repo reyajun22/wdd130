@@ -54,7 +54,7 @@ html {
   }
 
   main img{
-    max-width: 100px;
+    max-width: auto;
     padding: 20px;
   }
 
