@@ -1,7 +1,51 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300&family=Shippori+Mincho&display=swap');
 
-  @import url('https://coolors.co/819a96-deece5-ffffff-565656-004148');
+ /* CSS HEX */
+--cambridge-blue: #819a96ff;
+--mint-cream: #deece5ff;
+--white: #ffffffff;
+--davys-gray: #565656ff;
+--midnight-green: #004148ff;
+
+/* CSS HSL */
+--cambridge-blue: hsla(170, 11%, 55%, 1);
+--mint-cream: hsla(150, 27%, 90%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--davys-gray: hsla(0, 0%, 34%, 1);
+--midnight-green: hsla(186, 100%, 14%, 1);
+
+/* SCSS HEX */
+$cambridge-blue: #819a96ff;
+$mint-cream: #deece5ff;
+$white: #ffffffff;
+$davys-gray: #565656ff;
+$midnight-green: #004148ff;
+
+/* SCSS HSL */
+$cambridge-blue: hsla(170, 11%, 55%, 1);
+$mint-cream: hsla(150, 27%, 90%, 1);
+$white: hsla(0, 0%, 100%, 1);
+$davys-gray: hsla(0, 0%, 34%, 1);
+$midnight-green: hsla(186, 100%, 14%, 1);
+
+/* SCSS RGB */
+$cambridge-blue: rgba(129, 154, 150, 1);
+$mint-cream: rgba(222, 236, 229, 1);
+$white: rgba(255, 255, 255, 1);
+$davys-gray: rgba(86, 86, 86, 1);
+$midnight-green: rgba(0, 65, 72, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
+$gradient-right: linear-gradient(90deg, #819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
+$gradient-bottom: linear-gradient(180deg, #819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
+$gradient-left: linear-gradient(270deg, #819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
+$gradient-top-right: linear-gradient(45deg, #819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
+$gradient-bottom-right: linear-gradient(135deg, #819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
+$gradient-top-left: linear-gradient(225deg, #819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
+$gradient-bottom-left: linear-gradient(315deg, #819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
+$gradient-radial: radial-gradient(#819a96ff, #deece5ff, #ffffffff, #565656ff, #004148ff);
 </style>
 
 html {
