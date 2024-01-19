@@ -68,3 +68,8 @@ html {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
