@@ -20,6 +20,10 @@ html {
   --nav-hover-background-color: #004148;
 }
 
+footer img {
+  position: center;
+  orientation: vertical;
+}
 .hero img {
     display: block;
     width: 100%;
@@ -34,7 +38,3 @@ html {
     position: absolute;
   }
 
-  footer img {
-    position: center;
-    orientation: vertical;
-  }
