@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba (0,0,0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
 nav {
     background-color: rgb(114, 79, 73);
     padding: 10px;
@@ -20,8 +33,14 @@ aside {
     padding: 1rem;
     background-color: rgb(255, 255, 255);
     color: rgb(58, 58, 58);
-    text-align: left;
+    text-align: center;
 }
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+    }
 
 aside img {
     width: 600px;
@@ -33,7 +52,7 @@ main img {
     margin: 2rem;
     border:1px solid rgba (0, 0, 0, 0.2); /* 1 */
     padding: 1rem;
-
+    float: right;
 }
 
 p { padding: 0;}
