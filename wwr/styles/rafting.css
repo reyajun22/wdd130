@@ -20,19 +20,19 @@ html {
   --nav-hover-background-color: #004148;
 }
 
-  .hero img {
+.hero img {
     display: block;
     width: 100%;
     padding: 20px;
     height: auto;
     position: relative;
-  }
+}
 
-main img {
+  main img {
     max-width: 600px;
     height: auto;
     padding: 20px;
-}
+  }
 
   h1 {
     font-family: 'Shippori Mincho', serif;
