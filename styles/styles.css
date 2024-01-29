@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Class Selectors */
-
 nav {
     background-color: rgb(114, 79, 73);
     padding: 10px;
@@ -17,7 +15,7 @@ nav a {
     display: block;
     padding: 20px;
 }
-
+/* Class Selectors */
 .box {
     margin: 1rem;
     border: 1px rgb(58, 58, 58);
@@ -38,6 +36,7 @@ aside {
     background-color: rgb(255, 255, 255);
     color: rgb(58, 58, 58);
     text-align: center;
+    position: relative
 }
 
 aside img {
