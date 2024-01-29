@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300&family=Shippori+Mincho&display=swap');
+
+html {
+    font-size: 20px; 
+    font-family: 'Shippori Mincho', serif;
+  }d
+  
+  :root {
+    --primary-color: #565656;
+    --secondary-color: #819A96;
+    --accent1-color: #819A96;
+    --accent2-color: #004148;
+
+    --heading-font: 'Shippori Mincho', serif;
+    --paragraph-font: 'Inter', sans-serif;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #819A96;
+    --nav-hover-link-color: #b3c4c1;
+    --nav-hover-background-color: #004148;
+  }
+
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-family: 'Shippori Mincho', serif;
+  color: #FFFFFF;
+  text-align: center;
+  }
+
+d
