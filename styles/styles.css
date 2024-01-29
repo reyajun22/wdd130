@@ -39,7 +39,8 @@ aside {
 }
 
 aside h2 {
-    color: #0000000
+    color: #000000;
+    position: abosolue;
     }    
 
 aside img {
