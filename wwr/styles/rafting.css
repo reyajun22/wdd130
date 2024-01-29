@@ -21,12 +21,14 @@ html {
 }
 
 
-main img {
+.hero img {
     display: block;
     width: 100%;
     padding: 20px;
     height: auto;
     position: relative;
+    align-items: center;
+    
 }
     h1 {
     font-family: 'Shippori Mincho', serif;
