@@ -31,13 +31,16 @@ main {
 aside {
     width: 20em;
     margin: 1rem;
-    border:1px solid rgba (0, 0, 0, 0.2); /* 1 */
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
-    color: rgb(58, 58, 58);
+    border:1px #000000;
+    background-color: #e6bfac;
+    color: #000000;
     text-align: center;
-    position: relative
+    position: relative;
 }
+
+aside h2 {
+    color: #0000000
+    }    
 
 aside img {
     width: 600px;
@@ -47,7 +50,7 @@ aside img {
 main img {
     width: 20rem;
     margin: 2rem;
-    border:1px solid rgba (0, 0, 0, 0.2); /* 1 */
+    border:1px solid rgba (0, 0, 0, 0.2); 
     padding: 1rem;
     float: right;
 }
@@ -55,7 +58,7 @@ main img {
 p { padding: 0;}
 
 h1 {
-    color: rgb(61, 61, 61)
+    color: rgb(61, 61, 61);
 }
 
 img {
