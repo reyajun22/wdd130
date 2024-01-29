@@ -3,44 +3,46 @@
 html {
     font-size: 20px; 
     font-family: 'Shippori Mincho', serif;
-  }
+}
   
-  :root {
-    --primary-color: #565656;
-    --secondary-color: #819A96;
-    --accent1-color: #819A96;
-    --accent2-color: #004148;
+:root {
+  --primary-color: #565656;
+  --secondary-color: #819A96;
+  --accent1-color: #819A96;
+  --accent2-color: #004148;
 
-    --heading-font: 'Shippori Mincho', serif;
-    --paragraph-font: 'Inter', sans-serif;
+  --heading-font: 'Shippori Mincho', serif;
+  --paragraph-font: 'Inter', sans-serif;
 
-    --nav-background-color: #FFFFFF;
-    --nav-link-color: #819A96;
-    --nav-hover-link-color: #b3c4c1;
-    --nav-hover-background-color: #004148;
-  }
+  --nav-background-color: #FFFFFF;
+  --nav-link-color: #819A96;
+  --nav-hover-link-color: #b3c4c1;
+  --nav-hover-background-color: #004148;
+}
 
   .hero img {
     display: block;
     width: 100%;
+    padding: 20px;
     height: auto;
     position: relative;
   }
 
-  body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-  }
-
-  section img {
+main img {
     max-width: 600px;
+    height: auto;
     padding: 20px;
-  }
+}
 
   h1 {
     font-family: 'Shippori Mincho', serif;
     color: #FFFFFF;
     text-align: center;
     position: absolute;
+  }
+
+  footer img {
+    width: 100px;
+    position: center;
+    orientation: vertical;
   }
