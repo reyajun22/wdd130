@@ -26,15 +26,8 @@ html {
     padding: 20px;
     height: auto;
     position: relative;
-}
 
-  main img {
-    max-width: 600px;
-    height: auto;
-    padding: 20px;
-  }
-
-  h1 {
+    h1 {
     font-family: 'Shippori Mincho', serif;
     color: #FFFFFF;
     text-align: center;
