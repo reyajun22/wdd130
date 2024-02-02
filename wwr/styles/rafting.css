@@ -28,17 +28,6 @@ html {
   position: relative;
 }
 
-div{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-
-section{
-  display: flex;
-}
-
 h1 {
   font-size: 2rem;
   font-family: 'Shippori Mincho', serif;
