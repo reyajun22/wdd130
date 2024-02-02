@@ -28,10 +28,8 @@ html {
   position: relative;
 }
 
-section img {
-  display: flex;
-  grid-template-rows: 1;
-  grid-template-columns: 5;
+.section img {
+  display: inline-grid;
   justify-content: center;
   align-content: center;
 }
