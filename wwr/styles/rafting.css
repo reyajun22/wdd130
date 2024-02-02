@@ -29,7 +29,7 @@ html {
 }
 
 section img {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-content: center;
   grid-template-columns: 5;
