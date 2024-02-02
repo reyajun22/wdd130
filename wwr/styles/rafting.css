@@ -28,6 +28,14 @@ html {
   position: relative;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 200px;
+  flex-direction: row;
+}
+
 h1 {
   font-size: 2rem;
   font-family: 'Shippori Mincho', serif;
