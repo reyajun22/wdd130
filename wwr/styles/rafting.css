@@ -39,8 +39,12 @@ h1 {
 .navigation {
 	display: flex;
 	list-style: none;
+  padding: 20px;
 }
 
+main img {
+  
+}
 footer img {
   width: 10px;
   height: 10px;
