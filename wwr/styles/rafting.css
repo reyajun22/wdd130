@@ -21,11 +21,22 @@ html {
 }
 
 .hero img {
-  display: block;
+  display: flex;
   width: 100%;
   padding: 20px;
   height: auto;
   position: relative;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+section{
+  display: flex;
 }
 
 h1 {
@@ -42,9 +53,6 @@ h1 {
   padding: 20px;
 }
 
-main img {
-  
-}
 footer img {
   width: 10px;
   height: 10px;
