@@ -28,9 +28,9 @@ html {
   position: relative;
 }
 
-.section img {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+.section {
+  display: flex;
+  flex-direction: row;
 }
 
 h1 {
