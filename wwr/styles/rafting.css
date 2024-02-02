@@ -31,6 +31,8 @@ html {
 .section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  flex: 200px;
 }
 
 h1 {
