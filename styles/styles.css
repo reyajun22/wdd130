@@ -44,7 +44,7 @@ main {
 }
 
 aside {
-    position: relative;
+    position: center;
     grid-column: 1/2;
     grid-row: 1/2;
     margin: 1rem;
