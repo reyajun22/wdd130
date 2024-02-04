@@ -79,27 +79,45 @@ nav {
 	text-decoration: underline;
 }
 
-footer {
-  background-color: #333;
+.footer {
+  background-color: #88a9b1;
   color: #fff;
-  text-align: center;
-  padding: 20px;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.footer-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1230px;
+  padding: 40px 15px 450px;
+  position: relative;
 }
 
-.social-icons a {
-  margin: 0 10px;
+.footer-content-column {
+  box-sizing: border-box;
+  float: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50%;
   color: #fff;
-  text-decoration: none;
-  font-size: 20px;
 }
 
-.social-icons img {
-  width: 30px; /* Set the width of the social media icons */
-  height: 30px; /* Set the height of the social media icons */
+.footer-content-column ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+.footer-logo-link {
+  display: inline-block;
+}
+
+.footer-call-to-action {
+  margin-top: 30px;
+}
+
+.footer-social-links {
+  bottom: 0;
+  height: 54px;
+  position: absolute;
+  right: 0;
+  width: 236px;
 }
