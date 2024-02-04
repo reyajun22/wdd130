@@ -1,88 +1,93 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset=""utf-8>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-                font-family: Arial, sans-serif;
-            }
-    
-            .image-container {
-                display: grid;
-                grid-template-columns: repeat(5, 1fr);
-                gap: 10px; /* Adjust the gap between images */
-                justify-content: center;
-                align-items: center;
-                height: 100vh; /* Set a specific height or adjust as needed */
-            }
-    
-            .image-container img {
-                max-width: 100%;
-                height: auto;
-            }
-        </style>
-        <title>Rhea June Reyes | WDD 130</title>
-        <meta name="description" content="Welcome to My Page. Enjoy beautiful places and fun adventures with me soon!">
-        <meta name ="author" content="Rhea">
-        <link rel="stylesheet" href="styles/rafting.css">
-    </head>
-    <body>
-        <header>        
-            <img src="images/raftinglogo.png" alt="Rafting Site Logo">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhea June Reyes | WDD 130</title>
+    <meta name="description" content="Welcome to My Page. Enjoy beautiful places and fun adventures with me soon!">
+    <meta name ="author" content="Rhea">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/raftinglogo.png" alt="Rafting Site Logo">
+        <nav>
+            <ul class="navigation">
+            <li><a href="https://reyajun22.github.io/wdd130/">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li></li><a href="site-plan-rafting">Trips</a></li>
+            <li></li><a href="site-plan-rafting">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="section">
+        <div class="title">
             <h1>ABOUT</h1>
-            <nav>
-                <ul class="navigation">
-                <li><a href="https://reyajun22.github.io/wdd130/">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li></li><a href="site-plan-rafting">Trips</a></li>
-                <li></li><a href="site-plan-rafting">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="hero">
-                <img src="images/quietriver.jpg" alt="logo">
-                <h1>Paddle Well</h1>
-                <article>
-                    <img src="images/wildriver.jpg" alt="River Rafting">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                </article>
-                <section>
-                    <h2>History</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                </section>
-                <section>
-                <div class="image-container">
-                    <h2>Adventure Awaits You!</h2>
-                    <img src="images/chillrafting.jpg" alt="River Rafting">
-                    <img src="images/happygroup.jpg" alt="River Rafting">
-                    <img src="images/raftingmen.jpg" alt="River Rafting">
-                    <img src="images/womanrafting.jpg" alt="River Rafting">
-                    <img src="images/manrafting.jpg" alt="River Rafting">
-                </div>
-                </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="column">
+            <img src="images/quietriver.jpg" alt="logo">
+        </div>
+    </div>
+    <div class="section">
+        <div class="column">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="column">
+            <h2>History</h2>
+            <img src="images/wildriver.jpg" alt="River Rafting">
+        </div>
+        <div class="column">
+            <p>First Row - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+    </div>
+    <div class="column">
+        <h2>Adventure Awaits You!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <img src="images/chillrafting.jpg" alt="River Rafting">
             </div>
-        </main>
-        <footer>
-            <p>©2024 ★ Rhea June Reyes ★ The Philippines ★</p>
-            <nav class="sociallinks">
+            <div class="column">
+                <img src="images/happygroup.jpg" alt="River Rafting">
+            </div>
+            <div class="column">
+                <img src="images/raftingmen.jpg" alt="River Rafting">
+            </div>
+            <div class="column">
+                <img src="images/womanrafting.jpg" alt="River Rafting">
+            </div>
+            <div class="column">
+                <img src="images/manrafting.jpg" alt="River Rafting">
+            </div>
+        </div>
+    </div></main>
+    <footer>
+        <p>©2024 ★ Rhea June Reyes ★ The Philippines ★</p>
+        <nav class="sociallinks">
             <div class="social-icons">
-                <a href="https://facebook.com">
-                    <img src="images/fblogo.jpg" alt="Facebook">
-                </a>
-                <a href="https://youtube.com">
-                    <img src="images/ytlogo.jpg" alt="YouTube">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/iglogo.jpg" alt="Instagram">
-                </a>
+            <a href="https://facebook.com">
+                <img src="images/fblogo.jpg" alt="Facebook">
+            </a>
+            <a href="https://youtube.com">
+                <img src="images/ytlogo.jpg" alt="YouTube">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/iglogo.jpg" alt="Instagram">
+            </a>
             </div>
-            </nav>  
-        </footer>
-    </body>
+        </nav>  
+    </footer>
+</body>
 </html>
