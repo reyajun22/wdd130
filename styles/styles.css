@@ -114,3 +114,8 @@ footer {
     text-decoration: none;
     font-size: 20px;
 }
+
+.social-icons img {
+    width: 30px; /* Set the width of the social media icons */
+    height: 30px; /* Set the height of the social media icons */
+}
