@@ -24,6 +24,19 @@ header,.grid,footer {
   margin: 0 auto;
 }
 
+.box {
+  margin: 1rem;
+  border: 1px rgb(58, 58, 58);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+  }
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
 header {
   display: flex;
   flex-direction: row;
