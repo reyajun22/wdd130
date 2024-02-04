@@ -6,6 +6,22 @@
     <title> Rhea June Reyes | WDD 130</title>
     <meta name="description" content="Welcome to My Page. Enjoy beautiful places and fun adventures with me soon!">
     <meta name ="author" content="Rhea">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .container h1 {
+            flex: 1; /* This allows the h1 to take up the remaining space */
+            margin: 0; /* Remove default margin */
+        }
+
+        .container img {
+            max-width: 100%; /* Make sure the image doesn't exceed its container */
+            margin-left: 20px; /* Add some spacing between the h1 and the image */
+        }
+    </style>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
     <body>
@@ -19,18 +35,18 @@
             </nav>
         </header>
         <main>
-            <div class="hero">
+            <div class="container">
             <h1>Rhea June Reyes | WDD 130</h1>
             <img src="images/rhea.jpg" alt="I'm Rhea." width="200">
             <p>I am from the Philippines. I enjoy many things like a child new to the world. I love things that grow such as flowers, dreams and knowledge.
             </p>
+            </div>
             <ul class="box"></ul>
             <ul>
                 <li><a href="https://content.churchofjesuschrist.org/acp/bc/Philippines/ORM-SEO/Temples%20in%20the%20Philippines/1200x675/TempleIPH1080-1_01.png" target="_blank">Manila, Philippines Temple</a></li>
                 <li><a href="https://churchofjesuschristtemples.org/assets/img/temples/fukuoka-japan-temple/fukuoka-japan-temple-14618-main.jpg" target="_blank">Fukuoka Japan Temple</a></li>
                 <li><a href="https://cdn.ldsliving.com/dims4/default/1e0dc71/2147483647/strip/true/crop/640x360+0+0/resize/640x360!/format/jpg/quality/90/?url=http%3A%2F%2Flds-living-brightspot-us-east-2.s3.us-east-2.amazonaws.com%2F0f%2F37%2F2285489d96156ad7f103b3754371%2F29669.jpg" target="_blank">Sapporo Japan Temple</a></li>
             </ul>
-            </div>
         </main>
         <aside>
             <h2>My Style, My Pace</h2>
