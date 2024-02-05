@@ -79,7 +79,7 @@ body {
 
 body {
   margin: 0;
-  background-color: #f5d9bc;
+  background-color: #ffffff;
 }
 
 .container {
@@ -100,7 +100,7 @@ body {
 }
 
 img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
