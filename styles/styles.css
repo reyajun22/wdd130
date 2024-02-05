@@ -55,7 +55,7 @@ body {
 .right-section {
   flex: 1;
   padding: 20px;
-  justify-content: ;
+  justify-content: center;
 }
 
 .left-section ul {
