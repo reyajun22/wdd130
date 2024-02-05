@@ -47,11 +47,14 @@ body {
   margin: 0;
 }
 
+.container {
+    display: flex;
+  }
+
 .left-section,
 .right-section {
   flex: 1;
   padding: 20px;
-  justify-content: center;
 }
 
 .left-section ul {
