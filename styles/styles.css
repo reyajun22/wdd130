@@ -53,6 +53,7 @@ body {
 
 .left-section,
 .right-section {
+    display: flex;
   flex: 1;
   padding: 20px;
   justify-content: center;
