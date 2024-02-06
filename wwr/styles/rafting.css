@@ -26,6 +26,25 @@ header {
   justify-content: space-between;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  color: #007bff; /* Change color on hover if needed */
+}
 .box {
   margin: 1rem;
   border: 1px rgb(58, 58, 58);
