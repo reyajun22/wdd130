@@ -20,8 +20,10 @@ html {
   --nav-hover-background-color: #004148;
 }
 
-header,.grid,footer {
-  margin: 0 auto;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .box {
