@@ -43,10 +43,11 @@ body {
 }
 
 .footer {
-    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 20px;
 }
-
 .section {
     margin-bottom: 20px;
     display: flex;
