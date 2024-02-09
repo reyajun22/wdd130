@@ -22,6 +22,7 @@ html {
 
 header {
   display: flex;
+  background-color: #61888d;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
