@@ -40,15 +40,6 @@ header img {
   display: flex;
 }
 
-.navigation li {
-  margin: 0 10px;
-}
-
-.navigation a {
-  text-decoration: none;
-  color: #000;
-}
-
 @media (max-width: 768px) {
   header {
       flex-direction: column;
@@ -83,6 +74,7 @@ nav a {
 nav a:hover {
   color: #007bff;
 }
+
 .box {
   margin: 1rem;
   border: 1px rgb(58, 58, 58);
@@ -121,6 +113,14 @@ nav a:hover {
   }
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.adjusted-image {
+  height: 100px;
+}
 .logo {
   max-width: 10px;
 }
