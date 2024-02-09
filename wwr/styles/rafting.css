@@ -140,6 +140,21 @@ body {
 
 .content {
   display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content p {
+  flex: 1;
+}
+
+.content img {
+  max-height: 100%;
+  margin-left: 20px;
+}
+
+.content {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
