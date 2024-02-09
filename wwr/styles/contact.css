@@ -72,7 +72,7 @@ main {
 
 .info-item {
     flex: 1;
-    max-width: 300px; 
+    max-width: 50px; 
     margin: 10px;
     text-align: center; 
 }
@@ -107,7 +107,7 @@ main {
 }
 
 .profile-images img {
-    height: 400px; 
+    height: 100px; 
     margin: 0 10px; 
 }
 
