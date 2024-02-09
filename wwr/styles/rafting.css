@@ -22,8 +22,44 @@ html {
 
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navigation {
+      margin-top: 20px;
+  }
+
+  .navigation li {
+      margin: 5px 0;
+  }
 }
 
 nav ul {
@@ -56,6 +92,31 @@ nav a:hover {
 .grid {
   display: grid;
   align-items: center;
+}
+
+.first-row {
+  display: flex;
+  align-items: center;
+}
+
+.first-row img {
+  max-height: 100%;
+  margin-right: 10px; 
+}
+
+.first-row p {
+  flex: 1;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .first-row {
+      flex-direction: column;
+  }
+
+  .first-row img {
+      margin-bottom: 10px;
+  }
 }
 
 header {
