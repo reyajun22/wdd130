@@ -22,8 +22,11 @@ html {
 
 header {
     background-color: #333;    
-text-align: center;
-   padding: 20px 0;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1, header h2 {
