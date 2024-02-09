@@ -64,6 +64,9 @@ main {
     text-align: center;
 }
 
+.company-info img {
+    height: 30px;
+}
 .company-info {
     display: flex;
     flex-wrap: wrap;
