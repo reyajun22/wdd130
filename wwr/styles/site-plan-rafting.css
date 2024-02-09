@@ -20,6 +20,7 @@ html {
     --nav-hover-background-color: #004148;
 }
 
+
 header {
     background-color: #333;    
     text-align: center;
@@ -33,9 +34,9 @@ header h1, header h2 {
    margin: 0;
 }
 
-.body {
+body {
     margin: 20px;
-    padding: 20px;
+    text-align: center;
 }
 
 .container {
