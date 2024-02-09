@@ -26,7 +26,7 @@ header, main, footer {
 
 body {
     margin: 0;
-    padding: 40px;
+    padding: 0;
 }
 
 .company-info, .location.map, .profile-images, .contact-form {
