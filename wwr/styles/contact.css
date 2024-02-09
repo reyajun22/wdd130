@@ -24,6 +24,10 @@ header, main, footer {
     margin: 20px;
 }
 
+body {
+    margin: 0;
+    padding: 40px;
+}
 
 .company-info, .location.map, .profile-images, .contact-form {
     margin-bottom: 20px; 
