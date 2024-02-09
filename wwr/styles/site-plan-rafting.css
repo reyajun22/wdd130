@@ -21,20 +21,30 @@ html {
 }
 
 body {
-    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.header, .section, nav, footer {
-    margin: 40px;
-    text-align: center; 
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the container at least the height of the viewport */
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
     background-color: rgb(217, 217, 217);
-    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .section {
@@ -73,6 +83,3 @@ nav ul li {
     height: 30px;
 }
 
-.footer {
-    align-content: center;
-}
