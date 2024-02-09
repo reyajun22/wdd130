@@ -77,6 +77,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.content p {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.content img {
+  max-height: 100%;
+}
 .section {
   display: flex;
   justify-content: space-around;
