@@ -23,7 +23,8 @@ html {
 header {
   display: flex;
   background-color: #004148;
-  justify-content: space-between;
+  flex-direction: row;
+	justify-content: space-between;
   align-items: center;
   color:#FFFFFF
 }
@@ -118,15 +119,6 @@ nav a:hover {
   .first-row img {
       margin-bottom: 10px;
   }
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: 40vh;
-  overflow-x: auto;
 }
 
 .logo {
