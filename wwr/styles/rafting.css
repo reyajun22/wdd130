@@ -47,6 +47,7 @@ nav ul {
   padding: 0;
   margin: 0;
 }
+
 nav ul li {
   display: inline;
   margin-right: 20px;
@@ -95,7 +96,7 @@ nav ul li a {
   padding: 1rem;
   background-color: #ddd;
   color: #000;
-  }
+}
 
 .grid {
   display: grid;
@@ -136,8 +137,9 @@ nav ul li a {
 .adjusted-image {
   height: 100px;
 }
+
 .logo {
-  max-width: 200px;
+  max-width: 300px;
 }
 
 body {
