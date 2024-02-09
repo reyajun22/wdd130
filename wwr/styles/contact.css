@@ -67,6 +67,9 @@ main {
     text-align: center;
 }
 
+.body {
+    margin: ;
+}
 .company-info {
     display: flex;
     justify-content: center;
