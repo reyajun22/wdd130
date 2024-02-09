@@ -30,8 +30,7 @@ body {
 }
 
 .header {
-    background-color: rgb(217, 217, 217);
-    height: 100px;
+    height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
