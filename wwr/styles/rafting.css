@@ -80,7 +80,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #007bff; /* Change color on hover if needed */
+  color: #007bff;
 }
 .box {
   margin: 1rem;
