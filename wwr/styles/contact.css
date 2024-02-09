@@ -110,10 +110,11 @@ main {
 }
 
 .profile-images img {
-    height: 150px; 
+    height: 200px; 
     margin: 0 10px; 
 }
 
+/*-----------------CONTACT FORM-------------------*/
 .contact-form {
     display: flex;
     flex-direction: column;
