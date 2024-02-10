@@ -68,16 +68,16 @@ main {
 }
 
 .body {
-    margin: ;
+    margin: 20px;
 }
+
 .company-info {
     display: flex;
-    justify-content: center;
+    justify-content: space between;
 }
 
 .info-item {
     flex: 1;
-    max-width: 50px; 
     margin: 10px;
     text-align: center; 
     font-size: 15px;
@@ -101,6 +101,7 @@ main {
 .location.map .info-item {
     width: 100%;
     max-width: 600px;
+    max-height: 20px;
 }
 
 .location.map iframe {
@@ -108,8 +109,10 @@ main {
     height: 100%;  
     border: none; 
 }
+
 .profile-images {
     display: flex;
+    max-height: 200px;
     justify-content: center; 
     align-items: center; 
 }
@@ -131,6 +134,7 @@ main {
 .contact-form h2 {
     margin-bottom: 20px;
 }
+
 .contact-form form {
     width: 100%;
     max-width: 400px; 
@@ -152,10 +156,6 @@ main {
 
 .contact-form button {
     width: auto;
-}
-
-.contact-form h2 {
-    margin-bottom: 20px;
 }
 
 .input-group {
