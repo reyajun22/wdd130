@@ -62,6 +62,7 @@ header {
 /* -------------------MAIN -------------------------- */
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
@@ -128,6 +129,7 @@ main {
     border: 1px solid black; 
     padding: 20px; 
     background-color: #eaf4fc;
+    max-width: 200px;
 }
 
 .contact-form h2 {
@@ -135,7 +137,7 @@ main {
 }
 
 .contact-form form {
-    width: 50%;
+    width: 100%;
     max-width: 400px; 
 }
 
