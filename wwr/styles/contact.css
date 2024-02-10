@@ -29,6 +29,10 @@ body {
     padding: 0;
 }
 
+section {
+    margin-bottom: 20px;
+  }
+  
 .company-info, .location.map, .profile-images, .contact-form {
     margin-bottom: 20px; 
     padding: 20px; 
@@ -100,8 +104,7 @@ main {
 
 .location.map .info-item {
     width: 100%;
-    max-width: 600px;
-    max-height: 20px;
+    max-height: 30px;
 }
 
 .location.map iframe {
