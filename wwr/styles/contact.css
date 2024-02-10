@@ -142,7 +142,7 @@ main {
 
 .profile-images img {
     height: 200px; 
-    margin: 10px; 
+    margin: 0 10px; 
 }
 
 .contact-form {
