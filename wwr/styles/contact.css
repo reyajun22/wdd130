@@ -33,10 +33,29 @@ section {
     margin-bottom: 20px;
   }
   
-.company-info, .location.map, .profile-images, .contact-form {
+
+
+  .company-info,
+  .location-map,
+  .profile-images,
+  .contact-form {
     margin-bottom: 20px; 
-    padding: 20px; 
-}
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .company-info,
+  .location-map,
+  .profile-images,
+  .contact-form {
+    width: 100%; 
+    float: left; 
+  }
+  
 
 /* -------------------HEADER-------------------------- */
 header {
@@ -63,7 +82,7 @@ header {
     text-decoration: none;
     color: #fff;
   }
-  
+
 /* -------------------MAIN -------------------------- */
 main {
     display: flex;
@@ -115,7 +134,7 @@ main {
 }
 
 .profile-images {
-    display: flex;
+    display: block;
     max-height: 200px;
     justify-content: center; 
     align-items: center; 
@@ -131,7 +150,7 @@ main {
     flex-direction: column;
     align-items: center;
     border: 1px solid black; 
-    padding: 20px; 
+    padding: 20px;
     background-color: #eaf4fc;
     max-width: 200px;
 }
