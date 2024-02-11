@@ -150,11 +150,11 @@ main {
 }
 
 .column {
-  margin: 50px;
+  margin: 10px;
 }
 
 .item {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .item img {
@@ -163,7 +163,6 @@ main {
 }
 
 .item p {
-  margin: 10px 0;
   font-size: 13px;
 }
 
