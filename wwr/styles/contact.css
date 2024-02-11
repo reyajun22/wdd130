@@ -134,28 +134,6 @@ main {
     border: none; 
 }
 
-.row {
-    padding: 50px;
-}
-  
-.image-row {
-    display: flex;
-    flex-wrap: wrap;
-    max-height: 50px;
-    justify-content: center;
-    align-items: center;
-    margin: 100px;
-}
-
-.image-row img {
-    height: 300px; 
-    margin: 0 10px; 
-}
-
-.row p{
-    font-size: 13px;
-}
-
 /* -------------------CONTACT FORM-------------------------- */
 
 .contact-form {
