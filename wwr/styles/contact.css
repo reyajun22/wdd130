@@ -31,14 +31,16 @@ html {
   
   .company-info,
   .location-map,
+  .row
   .image-row {
     width: 100%; 
     padding: 20px;
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
   }
   
 header, main, footer {
     margin: 20px;
+    padding:20px;
 }
 
 /* -------------------HEADER-------------------------- */
@@ -124,6 +126,7 @@ main {
 }
 
 .location.map .info-item {
+    padding: 20px;
     width: 100%;
     max-height: 50px;
 }
@@ -137,26 +140,46 @@ main {
 /*PROFILES*/
 .row {
   display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
   justify-content: space-between;
   padding: 20px; 
   align-content: center;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
 .column {
-  width: calc(33.33% - 20px); 
+  flex: 1;
+  width: calc(33.33% - 20px);
+  margin: 0 10px;
   padding: 20px; 
+  text-align: center;
   border: 1px solid #ccc; 
   box-sizing: border-box; 
 }
 
 .column img {
-  display: block;
+  width: 100%;
   height: 200px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .column p {
+  height: 200px;
   margin-top: 10px; 
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  display: block;
   font-size: 12px;
 }
 
@@ -165,7 +188,7 @@ main {
 .contact-form {
   width: 50%;
   max-width: 500px; 
-  margin: 50px auto; 
+  margin-bottom: 30px; 
   padding: 20px;
   border: 1px solid #ccc; 
   box-sizing: border-box; 
