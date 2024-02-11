@@ -109,6 +109,7 @@ main {
 .info-item {
     flex: 1;
     margin: 10px;
+    margin-top: 10px;
     text-align: center; 
     font-size: 15px;
 }
