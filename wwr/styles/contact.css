@@ -126,7 +126,7 @@ main {
 
 .location.map .info-item {
     width: 100%;
-    max-height: 30px;
+    max-height: 50px;
 }
 
 .location.map iframe {
