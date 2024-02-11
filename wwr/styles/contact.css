@@ -135,7 +135,7 @@ main {
 }
 
 /*PROFILES*/
-.row {
+row, column {
   display: flex;
   justify-content: space-between;
   padding: 20px; 
