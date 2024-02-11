@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300&family=Shippori+Mincho&display=swap');
 
+
 html {
     font-size: 20px; 
     font-family: 'Shippori Mincho', serif;
@@ -11,8 +12,10 @@ html {
     --accent1-color: #819A96;
     --accent2-color: #004148;
 
+
     --heading-font: 'Shippori Mincho', serif;
     --paragraph-font: 'Inter', sans-serif;
+
 
     --nav-background-color: #FFFFFF;
     --nav-link-color: #819A96;
@@ -24,10 +27,13 @@ header, main, footer {
     margin: 20px;
 }
 
+
 body {
     margin: 0;
     padding: 0;
+    align-content: center;
 }
+
 
 section {
     margin-bottom: 20px;
@@ -41,10 +47,9 @@ section {
   
   .company-info,
   .location-map,
-  .image-row,
-  .contact-form {
+  .image-row {
     width: 100%; 
-    float: left;
+    float: center;
     padding: 20px;
     margin-bottom: 20px; 
   }
@@ -75,6 +80,7 @@ header {
     color: #fff;
   }
 
+
 /* -------------------MAIN -------------------------- */
 main {
     display: flex;
@@ -83,14 +89,17 @@ main {
     text-align: center;
 }
 
+
 .body {
     margin: 20px;
 }
+
 
 .company-info {
     display: flex;
     justify-content: space between;
 }
+
 
 .info-item {
     flex: 1;
@@ -105,6 +114,7 @@ main {
     width: 50px;
     height: auto;
 }
+
 
 .location.map {
     width: 100%;
@@ -124,88 +134,97 @@ main {
     height: 100%;  
     border: none; 
 }
+
+.row {
+    padding: 50px;
+}
   
 .image-row {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     max-height: 50px;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    margin: 10px;
-    padding: 20px;
+    margin: 100px;
 }
 
 .image-row img {
-    height: 200px; 
+    height: 100px; 
     margin: 0 10px; 
 }
 
+.row p{
+    font-size: 13px;
+}
+
+/* -------------------CONTACT FORM-------------------------- */
+
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid black; 
+    max-width: 100%;
     padding: 20px;
+    font-size: 13px;
+    border: 1px solid black; 
     background-color: #eaf4fc;
-    max-width: 200px;
+    align-items: center;
 }
 
 .contact-form h2 {
-    margin-bottom: 20px;
-}
-
-.contact-form form {
-    width: 100%;
-    max-width: 400px;
-    justify-content: center; 
-}
-
-.contact-form label,
-.contact-form input,
-.contact-form select,
-.contact-form textarea,
-.contact-form button,
-.contact-form br {
-    width: 100%;
-    margin-bottom: 10px; 
-}
-
-.contact-form textarea {
-    resize: vertical;
-}
-
-.contact-form button {
-    width: auto;
+    text-align: center;
 }
 
 .input-group {
-    width: 100%;
-    max-width: 400px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.input-group label {
+.input-group label,
+.input-group input,
+.input-group select,
+.input-group textarea {
     display: block;
+    font-family: 'Shippori Mincho';
 }
 
 .input-group input,
 .input-group select,
 .input-group textarea {
     width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
 }
 
-.input-group textarea {
-    resize: vertical;
+.input-group input[type="checkbox"] {
+    width: auto;
 }
 
-.input-group button {
-    margin-top: 10px;
+.button-group {
+    text-align: center;
 }
-/* -------------------FOOTER-------------------------- */
+
+.button-group button {
+    padding: 10px 20px;
+    background-color: #001328;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #474747;
+}
+
+/*-------------------FOOTER-------------------------- */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
+  }
+
+  footer p{
+    font-size: 13px;
   }
   
   .social-icons {
@@ -218,7 +237,7 @@ footer {
     margin: 0 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 12px;
   }
   
   .social-icons img {
