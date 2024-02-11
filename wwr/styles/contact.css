@@ -29,14 +29,14 @@ html {
     display: table;
   }
   
-  .company-info,
-  .location-map,
-  .row
-  .image-row {
-    width: 100%; 
-    padding: 20px;
-    margin-bottom: 30px; 
-  }
+.company-info,
+.location-map,
+.row
+.image-row {
+  width: 100%; 
+  padding: 20px;
+  margin-bottom: 30px; 
+}
   
 header, main, footer {
     margin: 20px;
@@ -63,23 +63,23 @@ body {
     align-content: center;
 }
 
-  .logo-container img {
-    max-height: 70px; }
+.logo-container img {
+  max-height: 70px; 
+}
   
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
+nav ul {
+  list-style: none;
+  display: flex;
+}
   
-  nav li {
-    margin: 0 10px;
-  }
+nav li {
+margin: 0 10px;
+}
   
-  nav a {
-    text-decoration: none;
-    color: #fff;
-  }
-
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
 
 /* -------------------MAIN -------------------------- */
 main {
@@ -89,17 +89,14 @@ main {
     text-align: center;
 }
 
-
 .body {
     margin: 20px;
 }
-
 
 .company-info {
     display: flex;
     justify-content: space between;
 }
-
 
 .info-item {
     flex: 1;
@@ -114,7 +111,6 @@ main {
     width: 50px;
     height: auto;
 }
-
 
 .location.map {
     width: 100%;
@@ -159,8 +155,8 @@ main {
 }
 
 .column img {
-  width: auto;
-  height: 200px;
+  width: 30%;
+  height: auto;
   margin-bottom: 10px;
   display: block;
   margin-left: auto;
