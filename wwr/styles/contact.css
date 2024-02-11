@@ -142,15 +142,10 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -10px;
+  margin-bottom: 20px;
   justify-content: space-between;
   padding: 20px; 
   align-content: center;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 
 .column {
@@ -164,7 +159,7 @@ main {
 }
 
 .column img {
-  width: 100%;
+  width: auto;
   height: 200px;
   margin-bottom: 10px;
   display: block;
