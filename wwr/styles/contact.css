@@ -162,7 +162,60 @@ main {
 
 /* -------------------CONTACT FORM-------------------------- */
 
+.contact-form {
+  width: 50%;
+  max-width: 500px; /* Adjust maximum width as needed */
+  margin: 50px auto; /* Adjust margin to center vertically */
+  padding: 20px;
+  border: 1px solid #ccc; /* Add border */
+  box-sizing: border-box; /* Include padding and border in total width */
+}
 
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.input-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
 
 /*-------------------FOOTER-------------------------- */
 footer {
