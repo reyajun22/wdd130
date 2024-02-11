@@ -165,11 +165,11 @@ main {
 
 .contact-form {
   width: 50%;
-  max-width: 500px; /* Adjust maximum width as needed */
-  margin: 50px auto; /* Adjust margin to center vertically */
+  max-width: 500px; 
+  margin: 50px auto; 
   padding: 20px;
-  border: 1px solid #ccc; /* Add border */
-  box-sizing: border-box; /* Include padding and border in total width */
+  border: 1px solid #ccc; 
+  box-sizing: border-box; 
 }
 
 .contact-form h2 {
@@ -198,6 +198,7 @@ main {
 .input-group input[type="checkbox"] {
   width: auto;
   margin-right: 5px;
+  margin-left: 5px;
 }
 
 .button-group {
