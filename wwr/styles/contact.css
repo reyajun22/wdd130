@@ -33,7 +33,6 @@ html {
   .location-map,
   .image-row {
     width: 100%; 
-    float: center;
     padding: 20px;
     margin-bottom: 20px; 
   }
