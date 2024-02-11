@@ -23,23 +23,7 @@ html {
     --nav-hover-background-color: #004148;
 }
 
-header, main, footer {
-    margin: 20px;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-    align-content: center;
-}
-
-
-section {
-    margin-bottom: 20px;
-  }
-   
-  .clearfix::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
@@ -54,6 +38,10 @@ section {
     margin-bottom: 20px; 
   }
   
+header, main, footer {
+    margin: 20px;
+}
+
 /* -------------------HEADER-------------------------- */
 header {
     display: flex;
@@ -63,6 +51,17 @@ header {
     color: #3a3a3a;
   }
   
+
+section {
+    margin-bottom: 20px;
+}
+     
+body {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
   .logo-container img {
     max-height: 70px; }
   
