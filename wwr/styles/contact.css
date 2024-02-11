@@ -152,12 +152,13 @@ main {
 .column img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 .column p {
   margin-top: 10px; 
   text-align: center;
+  font-size: 12px;
 }
 
 /* -------------------CONTACT FORM-------------------------- */
