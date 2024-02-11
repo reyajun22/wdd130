@@ -1,36 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300&family=Shippori+Mincho&display=swap');
 
 
-html {
+body, html {
     font-size: 20px; 
     font-family: 'Shippori Mincho', serif;
-  }
+    height: 100%;
+    margin: 0;
+}
   
-  :root {
-    --primary-color: #565656;
-    --secondary-color: #819A96;
-    --accent1-color: #819A96;
-    --accent2-color: #004148;
+:root {
+  --primary-color: #565656;
+  --secondary-color: #819A96;
+  --accent1-color: #819A96;
+  --accent2-color: #004148;
 
 
-    --heading-font: 'Shippori Mincho', serif;
-    --paragraph-font: 'Inter', sans-serif;
+  --heading-font: 'Shippori Mincho', serif;
+  --paragraph-font: 'Inter', sans-serif;
 
 
-    --nav-background-color: #FFFFFF;
-    --nav-link-color: #819A96;
-    --nav-hover-link-color: #b3c4c1;
-    --nav-hover-background-color: #004148;
+  --nav-background-color: #FFFFFF;
+  --nav-link-color: #819A96;
+  --nav-hover-link-color: #b3c4c1;
+  --nav-hover-background-color: #004148;
 }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  content: "";
+  clear: both;
+  display: table;
+}
   
 .company-info,
-.location-map,
+.goole-map,
 .row
 .image-row {
   width: 100%; 
@@ -38,29 +40,27 @@ html {
   margin-bottom: 30px; 
 }
   
-header, main, footer {
-    margin: 20px;
-    padding:20px;
-}
 
 /* -------------------HEADER-------------------------- */
 header {
-    display: flex;
-    background-color: #819A96;
-    justify-content: center;
-    align-items: center;
-    color: #3a3a3a;
-  }
-  
+  display: flex;
+  background-color: #819A96;
+  justify-content: center;
+  align-items: center;
+  color: #3a3a3a;
+}
 
-section {
-    margin-bottom: 20px;
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
      
 body {
-    margin: 0;
-    padding: 0;
-    align-content: center;
+  margin: 0;
+  padding: 0;
+  align-content: center;
 }
 
 .logo-container img {
@@ -82,6 +82,14 @@ nav a {
 }
 
 /* -------------------MAIN -------------------------- */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -112,24 +120,20 @@ main {
     height: auto;
 }
 
-.location.map {
-    width: 100%;
-    height: 100px;
+.google-map {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px; 
 }
 
-.location.map .info-item {
+.google-map .info-item {
     padding: 20px;
     width: 100%;
-    max-height: 50px;
 }
 
-.location.map iframe {
+.google-map iframe {
     width: 100%;
-    height: 100%;  
+    height: 400px;  
     border: none; 
 }
 
@@ -175,13 +179,13 @@ main {
 }
 
 /* -------------------CONTACT FORM-------------------------- */
-
 .contact-form {
-  width: 50%;
-  max-width: 500px; 
-  margin-bottom: 30px; 
-  padding: 20px;
-  box-sizing: border-box; 
+  width: 100%;
+  padding-bottom: 30px;
+  padding-left: 33%;
+  padding-right: 33%;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
 .contact-form h2 {
@@ -205,12 +209,14 @@ main {
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-top: 5px;
+  font-family: 'Shippori Mincho', serif;
 }
 
 .input-group input[type="checkbox"] {
   width: auto;
   margin-right: 5px;
   margin-left: 5px;
+  font-family: 'Shippori Mincho', serif;
 }
 
 .button-group {
@@ -230,6 +236,7 @@ main {
 .button-group button:hover {
   background-color: #0056b3;
 }
+
 
 /*-------------------FOOTER-------------------------- */
 footer {
@@ -259,4 +266,5 @@ footer {
   .social-icons img {
     width: 30px;
     height: 30px;
+    justify-content: center;
   }
