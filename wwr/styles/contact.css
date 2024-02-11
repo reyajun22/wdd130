@@ -32,16 +32,7 @@ body {
 section {
     margin-bottom: 20px;
   }
-  
-
-
-  .company-info,
-  .location-map,
-  .profile-images,
-  .contact-form {
-    margin-bottom: 20px; 
-  }
-  
+   
   .clearfix::after {
     content: "";
     clear: both;
@@ -50,11 +41,12 @@ section {
   
   .company-info,
   .location-map,
-  .profile-images,
+  .image-row,
   .contact-form {
     width: 100%; 
     float: left;
     padding: 20px;
+    margin-bottom: 20px; 
   }
   
 /* -------------------HEADER-------------------------- */
@@ -132,21 +124,17 @@ main {
     height: 100%;  
     border: none; 
 }
-
-.row {
-  display: flex;
-  margin: 10px;
-  padding: 20px;
-}
   
-.profile-images {
+.image-row {
     display: block;
-    max-height: 200px;
+    max-height: 50px;
     justify-content: center; 
     align-items: center;
+    margin: 10px;
+    padding: 20px;
 }
 
-.profile-images img {
+.image-row img {
     height: 200px; 
     margin: 0 10px; 
 }
@@ -167,7 +155,8 @@ main {
 
 .contact-form form {
     width: 100%;
-    max-width: 400px; 
+    max-width: 400px;
+    justify-content: center; 
 }
 
 .contact-form label,
