@@ -27,7 +27,8 @@ body {
 
 .h1,
 .h2,
-.h4 {
+.h4,
+.h5 {
   text-justify: center;
 }
 
