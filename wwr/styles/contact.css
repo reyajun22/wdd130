@@ -62,7 +62,6 @@ header {
 }
      
 body {
-  margin: 0;
   padding: 0;
   align-content: center;
 }
@@ -102,7 +101,7 @@ main {
 }
 
 .body {
-    margin: 20px;
+    padding: 20px;
 }
 
 .company-info {
