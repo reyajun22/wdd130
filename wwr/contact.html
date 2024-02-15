@@ -7,10 +7,6 @@
     <meta name="description" content="Welcome to My Page. Enjoy beautiful places and fun adventures with me soon!">
     <meta name ="author" content="Rhea">
     <link rel="stylesheet" href="styles/contact.css">
-    <script>
-        document.cookie = "cookieName=cookieValue; SameSite=None; Secure";
-    </script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
 </head>
 <body>
     <header>
@@ -40,21 +36,15 @@
                 <p>hello@example.com</p>
             </div>
         </section>
-
-        <h3>★ Business Location ★</h3>
-        <section class="google-map">
-            <div id="map"></div>
-        </section>
         
-        <script>
-            function initMap() {
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    center: { lat: -34.397, lng: 150.644 },
-                    zoom: 8
-                });
-            }
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+        <h3>★ Business Location ★</h3>
+
+        <section id="map-section">
+            <div class="map-container">
+                <!-- Embedded map will be inserted here -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.816144299188!2d-122.08497868467087!3d37.42265957977221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858087676d1d55%3A0x44cfccbe87e24d9e!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1646553196494!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
         
         <section class="three-column-section">
             <h3>The Team Members</h3>
@@ -144,7 +134,10 @@
                 <img src="images/iglogo.jpg" alt="Instagram">
             </a>
             </div>
-        </nav>  
+        </nav> 
+        <script>
+            document.cookie = "cookieName=cookieValue; SameSite=None; Secure";
+        </script>
     </footer>
     </body>
 </html>
