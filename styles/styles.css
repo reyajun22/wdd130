@@ -11,6 +11,21 @@ html, body {
   margin: 0;
 }
 
+:root {
+  --primary-color: #565656;
+  --secondary-color: #819A96;
+  --accent1-color: #819A96;
+  --accent2-color: #004148;
+
+  --heading-font: 'Shippori Mincho', serif;
+  --paragraph-font: 'Inter', sans-serif;
+
+  --nav-background-color: #FFFFFF;
+  --nav-link-color: #819A96;
+  --nav-hover-link-color: #b3c4c1;
+  --nav-hover-background-color: #004148;
+}
+
 body {
   margin: 0;
   font-size: 20px;
