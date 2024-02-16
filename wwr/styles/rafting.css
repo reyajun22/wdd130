@@ -250,6 +250,9 @@ body {
 }
 
 /* for the form */
+h2 {
+  text-align: center; /* Center the heading */
+}
 
 input[type="text"], textarea, select {
     width: 100%;
