@@ -43,6 +43,10 @@ header {
   align-items: center;
 }
 
+.google-map {
+  border: 0;
+}
+
 .logo {
   width: 100px; 
   height: auto;
