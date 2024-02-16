@@ -55,6 +55,38 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6479.455034766797!2d139.64490631509307!3d35.70832238985605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f27d7ae2481d%3A0x7c2a6f446552a76c!2sK%C5%8Denji%20Station!5e0!3m2!1sen!2skh!4v1708026251262!5m2!1sen!2skh" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
+
+    <h2>Message Us</h2>
+
+<section>
+    <form action="submit.php" method="post">
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="purpose">Purpose:</label><br>
+            <select id="purpose" name="purpose">
+                <option value="general">General Inquiry</option>
+                <option value="reservation">Reservation Question</option>
+                <option value="suggestion">Website Suggestion</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Please subscribe me to the monthly newsletter!</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
     
     <div class="column">
         <h2>Team Members</h2>
