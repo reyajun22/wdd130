@@ -23,7 +23,7 @@ html {
 
 header {
     display: flex;
-    background-color:rgb(105, 122, 122);
+    background-color:rgb(213, 213, 213);
     flex-direction: column;
     align-items: center;
     text-align: center;
