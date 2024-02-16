@@ -258,12 +258,13 @@ input[type="text"], textarea, select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: 'Shippori Mincho', serif;
 }
 input[type="radio"], input[type="checkbox"] {
     margin: 5px 10px 5px 0;
 }
 button {
-    background-color: #4CAF50;
+    background-color: #a1d2b7;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
