@@ -32,6 +32,12 @@ body {
   justify-content: center;
 }
 
+/* Trips HTML call-to-action */
+
+.call-to-action {
+    justify-content: center;
+}
+
 header {
   background-color: #f2f2f2;
   padding: 40px 0;
