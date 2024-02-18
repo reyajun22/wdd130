@@ -39,7 +39,7 @@ body {
 }
 
 header {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 40px 0;
 }
 
@@ -275,12 +275,12 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #555555;
 }
 
 nav a:link,
 nav a:visited {
-  color: #fff;
+  color: #53747d;
   padding: 10px 20px; 
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -297,7 +297,7 @@ nav li {
 }
 
 nav a:hover {
-  background-color: #48909f;
+  background-color: #000000;
 }
 
 /* for the form */
