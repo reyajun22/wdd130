@@ -20,7 +20,38 @@ html {
     --nav-hover-background-color: #004148;
 }
 
-
+nav {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:link,
+  nav a:visited {
+    color: #fff;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    background-color: #48909f;
+  }
+  
 header {
     display: flex;
     background-color:rgb(213, 213, 213);
