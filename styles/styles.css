@@ -92,7 +92,6 @@ nav a:hover {
 
 .two-column-section {
   display: flex;
-  background-color: rgb(217, 202, 182);
 }
 
 .column {
@@ -116,6 +115,7 @@ nav a:hover {
 .row {
   display: flex;
   flex-direction: row;
+  background-color: rgb(217, 202, 182);
 }
 
 .column {
