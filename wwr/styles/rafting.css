@@ -46,7 +46,7 @@ body {
   background-color: #004148;
   display: flex;
   justify-self: center;
-  padding: 20;
+  padding: 20px;
   color:#ccc;
 }
 .form {
