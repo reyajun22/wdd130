@@ -37,6 +37,7 @@ body {
 .call-to-action,
 .calendar {
   display: flex;
+  flex-direction:column;
   justify-content: center;   
   align-items: center;
   padding: 20px;
