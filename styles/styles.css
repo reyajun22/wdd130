@@ -109,6 +109,19 @@ nav a:hover {
   height: auto;
 }
 
+.temple {
+  align-items: center;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 0 10px;
+}
+
 .container {
   display: flex;
   justify-content: center;
