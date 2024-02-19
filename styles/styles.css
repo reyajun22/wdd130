@@ -136,6 +136,13 @@ nav a:hover {
   margin: 10px;
 }
 
+.temple {
+  flex-direction: row;
+  background-color: #004148;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   max-width: 100%;
   height: auto;
