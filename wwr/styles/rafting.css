@@ -42,6 +42,13 @@ body {
   padding: 20px;
 }
 
+.message{
+  background-color: #004148;
+  display: flex;
+  justify-self: center;
+  padding: 20;
+  color:#ccc;
+}
 .form {
   display: flex;
   justify-content: center;   
