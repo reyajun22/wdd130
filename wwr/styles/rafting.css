@@ -321,35 +321,63 @@ nav a:hover {
   background-color: #000000;
 }
 
-/* for the form */
-h2 {
-  text-align: center; /* Center the heading */
+/* -------------------CONTACT FORM-------------------------- */
+.contact-form {
+  width: 100%;
+  padding-bottom: 30px;
+  padding-left: 33%;
+  padding-right: 33%;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-input[type="text"], textarea, select {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: 'Shippori Mincho', serif;
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
-input[type="radio"], input[type="checkbox"] {
-    margin: 5px 10px 5px 0;
+
+.input-group {
+  margin-bottom: 15px;
 }
-button {
-    background-color: #a1d2b7;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
+
+.input-group label {
+  display: block;
 }
-button:hover {
-    background-color: #45a049;
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.input-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
 }
 /* footer */
 
