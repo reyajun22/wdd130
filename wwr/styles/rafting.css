@@ -57,6 +57,7 @@ body {
   justify-content: center;   
   align-items: center;
   padding: 20px;
+  background-color: rgb(207, 225, 225);
 }
 
 header {
