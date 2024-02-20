@@ -33,6 +33,20 @@ body {
 }
 
 /* Trips HTML call-to-action */
+.call-to-action {
+  text-align: center;
+}
+
+.call-to-action a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
 
 .calendar {
   display: flex;
