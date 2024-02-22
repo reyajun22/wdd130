@@ -37,6 +37,7 @@ body.home {
 .h4,
 .h5 {
   justify-content: center;
+  align-items: center;
 }
 
 /* Trips HTML call-to-action */
