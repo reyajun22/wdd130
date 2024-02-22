@@ -20,6 +20,7 @@ html {
   --nav-hover-background-color: #004148;
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -308,16 +309,38 @@ th {
     height: auto; 
 }
 
-/*aside*/
-aside {
-  margin: 20px;
+
+.box {
+  margin: 1rem;
+  border: 1px rgb(58, 58, 58);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
 
+/* Main Image */
+main img {
+  float: right;
+}
+
+/* Aside */
+aside {
+  margin: 20px;
+  position: relative;
+}
+
+/* Aside Heading */
+aside h2 {
+  position: absolute;
+}
+
+/* Aside Image */
 aside img {
   width: 100%;
   height: auto;
   display: block;
 }
+
 /*footer*/
 
 .row {
