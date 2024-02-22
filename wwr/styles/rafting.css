@@ -26,7 +26,7 @@ body {
 }
 
 body.home {
-  background-image: url('../images/wren-meinberg-phx4UXMQRTg-unsplash.jpg');
+  background-image: url('../images/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
