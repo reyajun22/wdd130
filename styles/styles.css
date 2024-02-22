@@ -173,6 +173,31 @@ img {
 }
 
 
+/* aside */
+
+/* Main Image */
+main img {
+  float: right;
+}
+
+/* Aside */
+aside {
+  margin: 20px;
+  position: relative;
+}
+
+/* Aside Heading */
+aside h2 {
+  position: absolute;
+}
+
+/* Aside Image */
+aside img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /*-------------------FOOTER---------------------*/
 
 footer {
