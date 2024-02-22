@@ -25,6 +25,12 @@ body {
   padding: 0;
 }
 
+body.home {
+  background-image: url('../images/wren-meinberg-phx4UXMQRTg-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .h1,
 .h2,
