@@ -26,7 +26,7 @@ body {
 }
 
 body.home {
-  background-image: url('../images/whitebg.jpg');
+  background-image: url('images/whitebg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
