@@ -293,8 +293,17 @@ th {
   display: flex;
   flex-direction:row;
   padding: 20px;
+  align-items: stretch;
 }
 
+.dauthor .column {
+    flex: 1; 
+}
+
+.dauthor img {
+    max-width: 100%;
+    height: auto; 
+}
 /*footer*/
 
 .row {
