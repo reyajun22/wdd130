@@ -307,6 +307,16 @@ th {
     max-width: 100%;
     height: auto; 
 }
+
+aside {
+  margin: 20px;
+}
+
+aside img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /*footer*/
 
 .row {
