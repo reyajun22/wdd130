@@ -38,6 +38,70 @@ header {
     padding: 40px 0;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Main section */
+.main {
+  text-align: center;
+}
+
+.main img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* JOIN US section */
+.JOINUS {
+  padding: 20px;
+}
+
+.JOINUS h3 {
+  text-align: justify;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 0 1 calc(30% - 20px); 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* The Author section */
+.dauthor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.dauthor .column {
+  flex: 0 1 calc(50% - 20px);
+}
+
+.dauthor img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 
 /* footer */
 
